@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_INJECTED_CODE" value="false" />
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da5b6f4e-c58c-41e3-9538-1712e5dfd48a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/scripts/create_hudi_table_upsert.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/create_hudi_table.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/create_hudi_table.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/create_hudi_table_insert.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/create_hudi_table_insert.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,11 +44,13 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/Ketan/Documents/k3k/projects/ketank-hudi-tutorials/scripts"
+    "last_opened_file_path": "/Users/Ketan/Documents/k3k/projects/ketank-hudi-tutorials/scripts",
+    "run.code.analysis.last.selected.profile": "aDefault"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/scripts" />
       <recent name="$PROJECT_DIR$/tmp" />
       <recent name="$PROJECT_DIR$/jars" />
       <recent name="$PROJECT_DIR$" />
