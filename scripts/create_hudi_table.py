@@ -93,6 +93,7 @@ df.write.format("hudi") \
 ## Load / Read the HUDI table and check count and data
 
 hudi_table=spark.read.format('hudi').load(target_path)
+hudi_table.printSchema()
 hudi_table.count()
 hudi_table.show(truncate=False)
 
