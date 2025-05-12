@@ -93,3 +93,15 @@ hudi_table = spark.read.format('hudi').load(TARGET_PATH)
 hudi_table.printSchema()
 hudi_table.count()
 hudi_table.show(truncate=False)
+
+import boto3
+athena_client=boto3.client('athena', region_name="ap-south-1")
+
+response = athena_client.get_table_metadata(
+    CatalogName="AwsDataCatalog",
+    DatabaseName='mobinew',
+    TableName='member')
+print(response)
+
+print(response['TableMetadata']['Parameters']['location'])
+print(response['TableMetadata']['PartitionKeys'][0]['Name'])
